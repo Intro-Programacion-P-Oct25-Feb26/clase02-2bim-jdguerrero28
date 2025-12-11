@@ -33,7 +33,9 @@ public class Ejemplo102 {
             // Luis o Ana
             nombre = estudiantes[i];
             if (!nombre.equals("Luis")) {
-            
+            // La condicion esta expresando con el signo ! que se va a imprimir
+            // todos los nombres con sus promedios excepto el que sea Luis y su
+            // promedio
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
                         mensajeFinal,
